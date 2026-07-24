@@ -13,7 +13,7 @@ helpHall = document.querySelector('.hall-help'),
 helpFriend = document.querySelector('.call-friend'),
 helpAI = document.querySelector('.ai-help'),
 game = document.querySelector('.game')
-
+ 
 ///////////////=============>
 
 let changedQuestion = document.getElementById('hintBox')
