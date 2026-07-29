@@ -4,306 +4,372 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ո՞վ է ուզում դառնալ միլիոնատեր։</title>
+    <title>Ո՞վ է ուզում դառնալ ՄԻԼԻՈՆԱՏԵՐ</title>
+    <link rel="stylesheet" href="./css/animate.css">
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.gstatic.com/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2 format('woff2')"
         rel="stylesheet">
 </head>
 
 <body>
-
     <section class="game">
         <div class="container">
             <button class="start-btn">Սկսել խաղը</button>
             <div class="rules-popup" id="rulesPopup">
                 <div class="rules-content">
-                    "Ո՞վ է ուզում դառնալ միլիոնատեր։" <br>
-                    ✔️ Խաղը բաղկացած է 15 հարցից։<br>
-                    ✔️ Յուրաքանչյուր ճիշտ պատասխանի դեպքում խաղացողն անցնում է հաջորդ հարցին։<br>
-                    ✔️ Խաղում կա 2 անձեռնմխելի գումար 5-րդ և 10-րդ հարցերից հետո։<br>
-                    ✔️ Խաղացողը կարող է օգտվել՝ <em>«50/50»</em>, <em>«Դահլիճի օգնություն»</em>, <em>«Զանգ
-                        ընկերոջը»</em>, <em>«Հարցը փոխելու»</em> և <em>«ԱԻ-ի օգնություն»</em> հնարավություններից։<br>
-                    ✔️ Սխալ պատասխանի դեպքում խաղացողը ստանում է վերջին շահած անձեռնմխելի գումարը։<br>
-                    ✔️ Խաղացողը կարող է ցանկացած պահի դադարեցնել խաղը և վերցնել շահած գումարը։<br><br>
-                    ՀԱՋՈՂՈՒԹՅՈՒՆ ՔԵԶ՝ ԱՊԱԳԱ ՄԻԼԻՈՆԱՏԵՐ։ 💰
+                    "Ո՞վ է ուզում դառնալ ՄԻԼԻՈՆԱՏԵՐ"<br><br>
+                    Խաղը բաղկացած է 15 հարցից։<br>
+                    Յուրաքանչյուր ճիշտ պատասխանի դեպքում խաղացողն անցնում է հաջորդ հարցին։<br>
+                    Խաղում կա 2 անձեռնմխելի գումար 5-րդ և 10-րդ հարցերից հետո։<br>
+                    Խաղացողը կարող է օգտվել՝ <em>«50/50»</em>, <em>«Դահլիճի օգնություն»</em>, <em>«Զանգ
+                        ընկերոջը»</em>, <em>«Հարցը փոխելու»</em> և <em>«ԱԲ-ի օգնություն»</em> հնարավություններից։<br>
+                    Սխալ պատասխանի դեպքում խաղացողը ստանում է վերջին շահած անձեռնմխելի գումարը։<br>
+                    Խաղացողը կարող է ցանկացած պահի դադարեցնել խաղը և վերցնել շահած գումարը։<br><br>
+                    ՀԱՋՈՂՈՒԹՅՈՒՆ ՔԵԶ՝ ԱՊԱԳԱ ՄԻԼԻՈՆԱՏԵՐ։ 
                 </div>
             </div>
             <button class="information" id="showRules">Կանոններ</button>
             <div class="game-block">
-                <h1 class="game-title">Ո՞վ է ուզում դառնալ միլիոնատեր։</h1>
+                <h1 class="game-title">Ո՞վ է ուզում դառնալ ՄԻԼԻՈՆԱՏԵՐ</h1>
                 <div class="game-wrap">
                     <div class="block-questions">
-                        <div class="questions questions1 questions-activ">
-                            <h2> Ո՞րն է նվագախմբի տարատեսակ</h2>
+
+                        <!-- ---------- -->
+                        <!-- question 1 -->
+                        <div class="question question_1 question-active">
+                            <h2>Ո՞րն է նվագախմբի տարատեսակ
+                            </h2>
                             <div class="block-answers">
-                                <div class="answer">Ա. Դողային</div>
-                                <div class="answer">Բ. Կողային</div>
-                                <div class="answer">Գ. Փողային</div>
-                                <div class="answer">Դ. Փողասերային</div>
-                            </div>
-                            <div class="questions questions1">
-                                <h2>Ո՞ր երկիրն է հայտնի որպես «Ծագող արևի երկիր»։</h2>
-                                <div class="block-answers">
-                                    <div class="answer">Ա. Չինաստան</div>
-                                    <div class="answer correct">Բ. Ճապոնիա</div>
-                                    <div class="answer">Գ. Հարավային Կորեա</div>
-                                    <div class="answer">Դ. Թաիլանդ</div>
+                                <div class="answer">Ա. Դողային
                                 </div>
+                                <div class="answer">Բ. Կողային
+                                </div> 
+                                <div class="answer">Գ. Փողային
+                                </div> <!-- Right variant -->
+                                <div class="answer">Դ. Փողասերային
+                                </div>
+                            </div>
+                        </div>
+                        <!-- question 2 -->
+                        <div class="question question_2">
+                            <h2>Ո՞ր երկիրն է հայտնի որպես «Ծագող արևի երկիր»։
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Չինաստան
+                                </div>
+                                <div class="answer">Բ. Ճապոնիա
+                                </div> <!-- Right variant -->
+                                <div class="answer">Գ. Հարավային Կորեա
+                                </div> 
+                                <div class="answer">Դ. Թաիլանդ
+                                </div>
+                            </div>
+                        </div>
 
-                                <div class="questions questions1">
-                                    <h2>Ո՞ր գրողն է «1984» վեպի հեղինակը։</h2>
-                                    <div class="block-answers">
-                                        <div class="answer">Ա. Օլդոս Հաքսլի</div>
-                                        <div class="answer">Բ. Ռեյ Բրեդբերի</div>
-                                        <div class="answer correct">Գ. Ջորջ Օրուել</div>
-                                        <div class="answer">Դ. Ֆրանց Կաֆկա</div>
-                                    </div>
-                                    <div class="questions questions1">
-                                        <h2>Ո՞ր մոլորակն ունի ամենամեծ թվով հայտնի արբանյակներ։</h2>
-                                        <div class="block-answers">
-                                            <div class="answer">Ա. Յուպիտեր</div>
-                                            <div class="answer correct">Բ. Սատուրն</div>
-                                            <div class="answer">Գ. Ուրան</div>
-                                            <div class="answer">Դ. Նեպտուն</div>
-                                        </div>
-                                        <div class="questions questions1">
-                                            <h2>Ո՞ր լեզվով է սկզբնապես գրվել «Դոն Կիխոտ» վեպը։</h2>
-                                            <div class="block-answers">
-                                                <div class="answer">Ա. Իտալերեն</div>
-                                                <div class="answer">Բ. Ֆրանսերեն</div>
-                                                <div class="answer correct">Գ. Իսպաներեն</div>
-                                                <div class="answer">Դ. Պորտուգալերեն</div>
-                                            </div>
-                                            <div class="questions questions1">
-                                                <h2>Ո՞ր մայրաքաղաքն է գտնվում երկու մայրցամաքներում։</h2>
-                                                <div class="block-answers">
-                                                    <div class="answer">Ա. Աթենք</div>
-                                                    <div class="answer correct">Բ. Ստամբուլ</div>
-                                                    <div class="answer">Գ. Թբիլիսի</div>
-                                                    <div class="answer">Դ. Բաքու</div>
-                                                </div>
-                                                <div class="questions questions1">
-                                                    <h2> Ո՞ր մոլորակն է Արեգակին ամենամոտը։</h2>
-                                                    <div class="block-answers">
-                                                        <div class="answer correct">Ա. Մերկուրի</div>
-                                                        <div class="answer">Բ. Վեներա</div>
-                                                        <div class="answer">Գ. Մարս</div>
-                                                        <div class="answer">Դ. Երկիր</div>
-                                                    </div>
-                                                    <div class="questions questions1">
-                                                        <h2> Ո՞վ է գրել «Փոքրիկ իշխանը»։</h2>
-                                                        <div class="block-answers">
-                                                            <div class="answer">Ա. Ժյուլ Վեռն</div>
-                                                            <div class="answer correct">Բ. Անտուան դը Սենտ-Էքզյուպերի
-                                                            </div>
-                                                            <div class="answer">Գ. Վիկտոր Հյուգո</div>
-                                                            <div class="answer">Դ. Ալեքսանդր Դյումա</div>
-                                                        </div>
-                                                        <div class="questions questions1">
-                                                            <h2> Ո՞ր գազն է ամենաշատը մթնոլորտում։</h2>
-                                                            <div class="block-answers">
-                                                                <div class="answer">Ա. Թթվածին</div>
-                                                                <div class="answer correct">Բ. Ազոտ</div>
-                                                                <div class="answer">Գ. Ջրածին</div>
-                                                                <div class="answer">Դ. Ածխաթթու գազ</div>
-                                                            </div>
-                                                            <div class="questions questions1">
-                                                                <h2> Ո՞ր գիտնականն է հայտնաբերել պենիցիլինը։</h2>
-                                                                <div class="block-answers">
-                                                                    <div class="answer">Ա. Լուի Պաստեր</div>
-                                                                    <div class="answer correct">Բ. Ալեքսանդր Ֆլեմինգ
-                                                                    </div>
-                                                                    <div class="answer">Գ. Չարլզ Դարվին</div>
-                                                                    <div class="answer">Դ. Նիլս Բոր</div>
-                                                                </div>
-                                                                <div class="questions questions1">
-                                                                    <h2> Ո՞ր գետն է հոսում Լոնդոնով։</h2>
-                                                                    <div class="block-answers">
-                                                                        <div class="answer">Ա. Սենա</div>
-                                                                        <div class="answer correct">Բ. Թեմզա</div>
-                                                                        <div class="answer">Գ. Դանուբ</div>
-                                                                        <div class="answer">Դ. Ռեյն</div>
-                                                                    </div>
-                                                                    <div class="questions questions1">
-                                                                        <h2> Ո՞ր երկիրն է արտադրում ամենաշատ սուրճը։
-                                                                        </h2>
-                                                                        <div class="block-answers">
-                                                                            <div class="answer correct">Ա. Բրազիլիա
-                                                                            </div>
-                                                                            <div class="answer">Բ. Կոլումբիա</div>
-                                                                            <div class="answer">Գ. Վիետնամ</div>
-                                                                            <div class="answer">Դ. Եթովպիա</div>
-                                                                        </div>
-                                                                        <div class="questions questions1">
-                                                                            <h2> Ո՞ր վիտամինի պակասն է առաջացնում լնդախտ
-                                                                                (ցինգա)։</h2>
-                                                                            <div class="block-answers">
-                                                                                <div class="answer">Ա. A</div>
-                                                                                <div class="answer">Բ. D</div>
-                                                                                <div class="answer correct">Գ. C</div>
-                                                                                <div class="answer">Դ. B12</div>
-                                                                            </div>
-                                                                            <div class="questions questions1">
-                                                                                <h2> Ո՞ր շախմատային խաղաքարն է կարող
-                                                                                    շարժվել «Լ» տառի ձևով։</h2>
-                                                                                <div class="block-answers">
-                                                                                    <div class="answer">Ա. Թագուհի</div>
-                                                                                    <div class="answer">Բ. Նավակ</div>
-                                                                                    <div class="answer correct">Գ. Ձի
-                                                                                    </div>
-                                                                                    <div class="answer">Դ. Փիղ</div>
-                                                                                </div>
-                                                                                <div class="questions questions1">
-                                                                                    <h2>Ո՞ր մետաղն է սենյակային
-                                                                                        ջերմաստիճանում գտնվում հեղուկ
-                                                                                        վիճակում։</h2>
-                                                                                    <div class="block-answers">
-                                                                                        <div class="answer">Ա. Երկաթ
-                                                                                        </div>
-                                                                                        <div class="answer">Բ. Ալյումին
-                                                                                        </div>
-                                                                                        <div class="answer">Գ. Արծաթ
-                                                                                        </div>
-                                                                                        <div class="answer">Դ. Սնդիկ
-                                                                                        </div>
-                                                                                    </div>
+                        <!-- question 3 -->
+                        <div class="question question_3">
+                            <h2>Ո՞ր գրողն է «1984» վեպի հեղինակը։
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Օլդոս Հաքսլի
+                                </div>
+                                <div class="answer">Բ. Ռեյ Բրեդբերի
+                                </div>
+                                <div class="answer">Գ. Ջորջ Օրուել
+                                </div> <!-- Right variant -->
+                                <div class="answer">Դ. Ֆրանց Կաֆկա
+                                </div> 
+                            </div>
+                        </div>
 
-                                                                                    <div class="question question_extra"
-                                                                                        id="extra">
-                                                                                        <h2>Ըստ իր խոստովանության ինչի՞
-                                                                                            աստվածն էր Օլե Լուկոյեն՝
-                                                                                            Անդերսենի համանուն հեքիաթից
-                                                                                        </h2>
-                                                                                        <div class="answer">Ա.Հեքիաթների
-                                                                                        </div>
-                                                                                        <div class="answer">Բ.Մանկության
-                                                                                        </div>
-                                                                                        <div class="answer">Գ.Գիշերվա
-                                                                                        </div>
-                                                                                        <div class="answer">Դ.Երազների
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <button class="end-btn"
-                                                                                        id="end">Դադարեցնել
-                                                                                        խաղը</button>
-                                                                                </div>
-                                                                                <div class="block-win">
-                                                                                    <div class="hints">
-                                                                                        <div
-                                                                                            class="hints-help fifty-fifty">
-                                                                                            <span
-                                                                                                class="close-left"></span>
-                                                                                            <span
-                                                                                                class="close-right"></span>
-                                                                                            50/50
-                                                                                        </div>
+                        <!-- question 4 -->
+                        <div class="question question_4">
+                            <h2>Ո՞ր մոլորակն ունի ամենամեծ թվով հայտնի արբանյակներ։
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Յուպիտեր
+                                </div>
+                                <div class="answer">Բ. Սատուրն
+                                </div> <!-- Right variant -->
+                                <div class="answer">Գ. Ուրան
+                                </div>
+                                <div class="answer">Դ. Նեպտուն
+                                </div>
+                            </div>
+                        </div>
 
-                                                                                        <div
-                                                                                            class="hints-help hall-help">
-                                                                                            <span
-                                                                                                class="close-left"></span>
-                                                                                            <span
-                                                                                                class="close-right"></span>
-                                                                                            <i class="fas fa-users"></i>
-                                                                                        </div>
+                        <!-- question 5 -->
+                        <div class="question question_5">
+                            <h2>Ո՞ր լեզվով է սկզբնապես գրվել «Դոն Կիխոտ» վեպը։
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Իտալերեն
+                                </div>
+                                <div class="answer">Բ. Ֆրանսերեն
+                                </div>
+                                <div class="answer">Գ. Իսպաներեն
+                                </div> <!-- Right variant -->
+                                <div class="answer">Դ. Պորտուգալերեն
+                                </div>
+                            </div>
+                        </div>
 
-                                                                                        <div
-                                                                                            class="hints-help call-friend">
-                                                                                            <span
-                                                                                                class="close-left"></span>
-                                                                                            <span
-                                                                                                class="close-right"></span>
-                                                                                            <i class="fas fa-phone"></i>
-                                                                                        </div>
+                        <!-- question 6 -->
+                        <div class="question question_6">
+                            <h2>Ո՞ր մայրաքաղաքն է գտնվում երկու մայրցամաքներում։
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Աթենք
+                                </div>
+                                <div class="answer">Բ. Ստամբուլ
+                                </div> <!-- Right variant -->
+                                <div class="answer">Գ. Թբիլիսի
+                                </div>
+                                <div class="answer">Դ. Բաքու
+                                </div>
+                            </div>
+                        </div>
 
-                                                                                        <div class="hints-help changed-question"
-                                                                                            id="hintBox">
-                                                                                            <span
-                                                                                                class="close-left"></span>
-                                                                                            <span
-                                                                                                class="close-right"></span>
-                                                                                            <i
-                                                                                                class="fas fa-retweet"></i>
-                                                                                        </div>
+                        <!-- question 7 -->
+                        <div class="question question_7">
+                            <h2>Ո՞ր մոլորակն է Արեգակին ամենամոտը։
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Մերկուրի
+                                </div> <!-- Right variant -->
+                                <div class="answer">Բ. Վեներա
+                                </div>
+                                <div class="answer">Գ. Մարս
+                                </div>
+                                <div class="answer">Դ. Երկիր
+                                </div>
+                            </div>
+                        </div>
 
-                                                                                        <div class="hints-help ai-help">
-                                                                                            <span
-                                                                                                class="close-left"></span>
-                                                                                            <span
-                                                                                                class="close-right"></span>
-                                                                                            Ai
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="wins">
-                                                                                        <div class="wins-block">
-                                                                                            <span>15.</span> 5 000 000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>14.</span> 3 000 000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>13.</span> 2 000 000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>12.</span> 1 000 000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>11.</span> 500 000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>10.</span> 250 000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>9.</span> 125 000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>8.</span> 64 000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>7.</span> 32 000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>6.</span> 16 000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>5.</span> 8000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>4.</span> 4000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>3.</span> 2000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>2.</span> 1000
-                                                                                        </div>
-                                                                                        <div class="wins-block">
-                                                                                            <span>1.</span> 500
-                                                                                        </div>
+                        <!-- question 8 -->
+                        <div class="question question_8">
+                            <h2>Ո՞վ է գրել «Փոքրիկ իշխանը»։
 
-                                                                                    </div>
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Ժյուլ Վեռն
+                                </div>
+                                <div class="answer">Բ. Անտուան դը Սենտ-Էքզյուպերի
+                                </div> <!-- Right variant -->
+                                <div class="answer">Գ. Վիկտոր Հյուգո
+                                </div>
+                                <div class="answer">Դ. Ալեքսանդր Դյումա
+                                </div>
+                            </div>
+                        </div>
 
-                                                                                    <div class="ai-explain-block"
-                                                                                        id="aiExplainBlock">
-                                                                                        <span class="ai-explain-close"
-                                                                                            id="aiExplainClose">&times;</span>
-                                                                                        <h3>ԱԲ պատասխան</h3>
-                                                                                        <p class="ai-explain-text"
-                                                                                            id="aiExplainText"></p>
+                        <!-- question 9 -->
+                        <div class="question question_9">
+                            <h2>Ո՞ր գազն է ամենաշատը մթնոլորտում։
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Թթվածին
+                                </div>
+                                <div class="answer">Բ. Ազոտ
+                                </div> <!-- Right variant -->
+                                <div class="answer">Գ. Ջրածին
+                                </div>
+                                <div class="answer">Դ. Ածխաթթու գազ
+                                </div>
+                            </div>
+                        </div>
 
-                                                                                    </div>
+                        <!-- question 10 -->
+                        <div class="question question_10">
+                            <h2>Ո՞ր գիտնականն է հայտնաբերել պենիցիլինը։
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Լուի Պաստեր
+                                </div>
+                                <div class="answer">Բ. Ալեքսանդր Ֆլեմինգ
+                                </div> <!-- Right variant -->
+                                <div class="answer">Գ. Չարլզ Դարվին
+                                </div>
+                                <div class="answer">Դ. Նիլս Բոր
+                                </div>
+                            </div>
+                        </div>
 
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
+                        <!-- question 11 -->
+                        <div class="question question_11">
+                            <h2>Ո՞ր գետն է հոսում Լոնդոնով։
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Սենա
+                                </div>
+                                <div class="answer">Բ. Թեմզա
+                                </div> <!-- Right variant -->
+                                <div class="answer">Գ. Դանուբ
+                                </div> 
+                                <div class="answer">Դ. Ռեյն
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- question 12 -->
+                        <div class="question question_12">
+                            <h2>Ո՞ր երկիրն է արտադրում ամենաշատ սուրճը։
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Բրազիլիա
+                                </div> <!-- Right variant -->
+                                <div class="answer">Բ. Կոլումբիա
+                                </div>
+                                <div class="answer">Գ. Վիետնամ
+                                </div> 
+                                <div class="answer">Դ. Եթովպիա
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- question 13 -->
+                        <div class="question question_13">
+                            <h2>Ո՞ր վիտամինի պակասն է առաջացնում լնդախտ (ցինգա)։
+
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. A վիտամին
+                                </div>
+                                <div class="answer">Բ. D վիտամին
+                                </div>
+                                <div class="answer">Գ. C վիտամին
+                                </div> <!-- Right variant -->
+                                <div class="answer">Դ. B12 վիտամին
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- question 14 -->
+                        <div class="question question_14">
+                            <h2>Ո՞ր շախմատային խաղաքարն է կարող շարժվել «Լ» տառի ձևով։
+
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Թագուհի
+                                </div>
+                                <div class="answer">Բ. Նավակ
+                                </div> 
+                                <div class="answer">Գ. Ձի
+                                </div> <!-- Right variant -->
+                                <div class="answer">Դ. Փիղ
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- question 15 -->
+                        <div class="question question_15">
+                            <h2>Ո՞ր մետաղն է սենյակային ջերմաստիճանում գտնվում հեղուկ վիճակում։
+
+                            </h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Երկաթ
+                                </div>
+                                <div class="answer">Բ. Ալյումին
+                                </div> 
+                                <div class="answer">Գ. Արծաթ
+                                </div>
+                                <div class="answer">Դ. Սնդիկ
+                                </div> <!-- Right variant -->
+                            </div>
+                        </div>
+
+                        <!-- question 16 (Extra) -->
+                        <div class="question question_extra" id="extra">
+                            <h2>Ըստ իր խոստովանության ինչի աստվածն էր Օլե Լուկոյեն՝ Անդերսենի համանուն հեքիաթից</h2>
+                            <div class="block-answers">
+                                <div class="answer">Ա. Հեքիաթների</div>
+                                <div class="answer">Բ. Մանկության</div>
+                                <div class="answer">Գ. Գիշերվա</div>
+                                <div class="answer">Դ. Երազների</div> <!-- Right variant -->
+                            </div>
+                        </div>
+                        <button class="end-btn" id="end">Դադարեցնել խաղը</button>
+                    </div>
+                    <div class="block-win">
+                        <div class="hints">
+
+                            <div class="hints-help fifty-fifty">
+                                <span class="close-left"></span>
+                                <span class="close-right"></span>
+                                50/50
+                            </div>
+
+                            <div class="hints-help hall-help">
+                                <span class="close-left"></span>
+                                <span class="close-right"></span>
+                                <i class="fas fa-users"></i>
+                            </div>
+
+                            <div class="hints-help call-friend">
+                                <span class="close-left"></span>
+                                <span class="close-right"></span>
+                                <i class="fas fa-phone"></i>
+                            </div>
+
+                            <div class="hints-help changed-question" id="hintBox">
+                                <span class="close-left"></span>
+                                <span class="close-right"></span>
+                                <i class="fas fa-retweet"></i>
+                            </div>
+
+                            <div class="hints-help ai-help">
+                                <span class="close-left"></span>
+                                <span class="close-right"></span>
+                                AI
+                            </div>
+                        </div>
+                        <div class="wins">
+                            <div class="wins-block"><span>15. </span>5.000.000</div>
+                            <div class="wins-block"><span>14. </span>3.000.000</div>
+                            <div class="wins-block"><span>13. </span>2.000.000</div>
+                            <div class="wins-block"><span>12. </span>1.000.000</div>
+                            <div class="wins-block"><span>11. </span>500.000</div>
+                            <div class="wins-block"><span>10. </span>250.000</div>
+                            <div class="wins-block"><span>9. </span>125.000</div>
+                            <div class="wins-block"><span>8. </span>64.000</div>
+                            <div class="wins-block"><span>7. </span>32.000</div>
+                            <div class="wins-block"><span>6. </span>16.000</div>
+                            <div class="wins-block"><span>5. </span>8.000</div>
+                            <div class="wins-block"><span>4. </span>4.000</div>
+                            <div class="wins-block"><span>3. </span>2.000</div>
+                            <div class="wins-block"><span>2. </span>1.000</div>
+                            <div class="wins-block"><span>1. </span>500</div>
+                        </div>
+                        <div class="ai-explain-block" id="aiExplainBlock">
+                            <span class="ai-explain-close" id="aiExplainClose">&times;</span>
+                            <h3>ԱԲ-ի պատասխան</h3>
+                            <p class="ai-explain-text" id="aiExplainText"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-....
-    <script src="js/script.js"></script>
-
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
+
+
+<!-- ✅ Գ. Փողային
+✅ Բ. Ճապոնիա
+✅ Գ. Ջորջ Օրուել
+✅ Բ. Սատուրն
+✅ Գ. Իսպաներեն
+✅ Բ. Ստամբուլ
+✅ Ա. Մերկուրի
+✅ Բ. Անտուան դը Սենտ-Էքզյուպերի
+✅ Բ. Ազոտ
+✅ Բ. Ալեքսանդր Ֆլեմինգ
+✅ Բ. Թեմզա
+✅ Ա. Բրազիլիա
+✅ Գ. C վիտամին
+✅ Գ. Ձի
+✅ Դ. Սնդիկ
+✅ Դ. Երազների -->

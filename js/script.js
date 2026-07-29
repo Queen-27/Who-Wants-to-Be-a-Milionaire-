@@ -35,6 +35,7 @@ const OPENAI_MODEL = ''
 
 showBtn.addEventListener('click', () => {
     popup.classList.add("show")
+    
 })
 
 popup.addEventListener('click', () => {
@@ -106,6 +107,8 @@ endBtn.addEventListener('click', () => {
         }, 0)
     }
 
+    showBtn.classList.remove('hide')
+
     getStartGame()
 })
 
@@ -113,12 +116,13 @@ endBtn.addEventListener('click', () => {
 startBtn.addEventListener('click', () => {//Խաղի սկիզբը կոճակի վրա սեղմելիս , պետք է կատարվեն այս ֆունկցիայում ներառված գործողությւոնները
     generalMusic.pause();
     generalMusic.currentTime = 0;
-    game.style.backgroundImage = "url('./img/galaxyy.png')";
+    game.style.backgroundImage = "url('./img/galaxy.png')";
     game.style.backgroundSize = "100%"
 
     startBtn.classList.add('animate__animated', 'animate__backOutUp');//նախապես ունեցած կոճակի վրա ավելացնում ենք այս երկու անիմացիաները
     mainGame.classList.remove('animate__backOutDown');//mainGame-ից հեռացնում ենք այս կլաս անուն ունեցող անիմացիան
-    showBtn.remove()
+    showBtn.classList.add('hide')
+
     setTimeout(() => {//Ցույց է տալիս թե ինչքան ժամանակ հետո պետք է կատարվի տվյալ գործողությունը
         mainGame.style.display = 'block';
         mainGame.classList.add('animate__animated', 'animate__backInUp');//mainGame-ին ավելացնումէ է նախապես ստեղծված  կլաս անվանում
