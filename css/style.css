@@ -612,7 +612,7 @@ body {
   visibility: hidden;
 }
 
-.game {
+/* .game {
   min-height: 100vh;
   background-image: url('../img/images1.png'),
     url('../img/galaxy.png');
@@ -629,7 +629,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-} 
+}  */
 
 .game{
     min-height: 100vh;
